@@ -32,7 +32,7 @@ router.post("/burgers/insert", function(req, res) {
     burger_name: req.body.burger_name
   }).then(function(dbBurger) {
     // log result in console
-    console.log(dbBurger);
+    // console.log(dbBurger);
     // redirect to home page
     res.redirect("/");
   });
